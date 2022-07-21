@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+body {
+  background-color: #f2f6ff;
+}
+
+.logo {
+  cursor: pointer;
+  width: 130px;
+}
+
+.top-container {
+  margin: 0 15%;
+}
+
+header nav {
+  padding: 10px 6%;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 2px 1px gainsboro;
+  z-index: -1;
+}
+.flex-class {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-class1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.flex-class2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edyoda-logo {
+  width: 140px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #0084ff;
+  font-style: normal;
+  font-family: sans-serif;
+  letter-spacing: -1.5px;
+  margin-bottom: -8px;
+  background-image: linear-gradient(269deg, #0048ff, #0096ff),
+    linear-gradient(#000, #000);
+  -webkit-text-fill-color: transparent;
+  color: #0084ff;
+  -webkit-background-clip: text;
+  height: 100%;
+}
+
+.stories-logo {
+  margin: 0;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -5px;
+}
+
+.explore-button {
+  padding: 0px 8px;
+  margin-left: 60px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  font-family: Raleway, sans-serif;
+  margin-left: 20px;
+}
+
+.dropdown-items {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  padding: 5px 5px;
+  display: block;
+}
+
+.dropdown-items:hover {
+  background-color: #cecaca;
+}
+
+.explore {
+  display: block;
+}
+
+.explore:hover .dropdown-content {
+  display: block;
+}
+
+i {
+  padding: 8px;
+}
+
+#goto-website {
+  font-family: Raleway, sans-serif;
+  width: auto;
+  padding: 0.5em 2em;
+  margin: 0px 1em 0px 0px;
+  box-shadow: none;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  background: #0084ff;
+  min-width: 136px;
+  height: 42px;
+  border-radius: 25px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
+
+#about {
+  margin-right: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: rgb(173, 172, 172);
+}
+
+main {
+  padding-left: 190px;
+  padding-right: 120px;
+  background-color: #f2f6ff;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+h1 {
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+.filter {
+  padding: 15px 0px 15px 0px;
+}
+
+.fa-solid.fa-filter {
+  color: #0084ff;
+}
+
+.categories {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+.filter-category {
+  display: inline-block;
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.active {
+  background-color: #0084ff;
+  color: #f2f6ff;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 32%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+.image-section {
+  height: 176px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title {
+  padding: 8px 0px 8px 0px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+  height: 27%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.text-section {
+  padding: 10px 24px;
+  height: 50%;
+}
+
+.author-section {
+  padding-top: 4px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.details {
+  padding: 10px 0px 8px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  height: 60%;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.author {
+  color: #0096ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #172146;
+  padding: 80px 16%;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+}
